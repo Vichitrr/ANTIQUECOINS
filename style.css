@@ -1,0 +1,84 @@
+nav a {
+    color: rgb(52, 41, 34);
+    transition: all 0.3s ease;
+    justify-content: center;
+}
+ .navbar a:hover {
+text-shadow: 0 0 15px blue;
+}
+ .navbar {
+    position: absolute;
+    top: 5%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: large;
+    color: rgb(204, 21, 21);
+    border-radius: 1% yellow;
+ }
+.btns a {
+    border-radius: 30px;
+    background: rgb(103, 103, 232);
+    color: rgb(27, 6, 6);
+    transition: all 0.3s ease;
+}
+ .hi {
+    position: absolute;
+    top: 3%;
+    right: 1px;
+    font-size: 12px;
+}
+ .btns a:hover {
+    text-shadow: 0 0 15px rgb(39, 13, 11);
+ }
+ 
+ .fb-link a {
+    color: rgb(22, 4, 63);
+    transition: all 0.3s ease;
+ }
+  .fb-link a:hover {
+    text-shadow: 0 0 15px rgb(154, 138, 52);
+ }
+ .name {
+    font-size: 22px;
+    color: rgb(78, 9, 9);
+    transition: all 0.3s ease;
+ }
+ .cont {
+    color: rgb(248, 248, 248);
+    font-size: 40px;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 15px rgb(20, 3, 3);
+ }
+ .cont :hover {
+    text-shadow: 0 0 15px rgb(139, 52, 127);
+ }
+ .not {
+    color: rgb(248, 248, 248);
+    font-size: 40px;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 15px rgb(20, 3, 3);
+ }
+ .not :hover {
+    text-shadow: 0 0 15px rgb(139, 52, 127);
+ }
+ .coin {
+    color: rgb(248, 248, 248);
+    font-size: 40px;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 15px rgb(20, 3, 3);
+ }
+ .coin :hover {
+    text-shadow: 0 0 15px rgb(139, 52, 127);
+ }
+ .logo {
+    position: absolute;
+    top: 5px;
+    left: 25px;
+ }
+ .line {
+    border: 1px black;
+ }
