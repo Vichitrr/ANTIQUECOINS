@@ -8,8 +8,8 @@ text-shadow: 0 0 15px blue;
 }
  .navbar {
     position: absolute;
-    top: 5%; 
-    left: 51%;
+    top: 5.5%; 
+    left: 49%;
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
