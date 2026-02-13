@@ -8,8 +8,8 @@ text-shadow: 0 0 15px blue;
 }
  .navbar {
     position: absolute;
-    top: 6%; 
-    left: 30%;
+    top: 22px; 
+    left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@ text-shadow: 0 0 15px blue;
 }
  .hi {
     position: absolute;
-    top: 10px;
+    top: 12px;
     right: 1px;
     font-size: 12px;
 }
@@ -66,17 +66,17 @@ text-shadow: 0 0 15px blue;
     text-shadow: 0 0 15px rgb(255, 251, 254);
  }
  .coin {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 40px;
     transition: all 0.3s ease;
     font-style: serif;
  }
  .coin :hover {
-    text-shadow: 0 0 15px rgb(139, 52, 127);
+    text-shadow: 0 0 15px rgb(253, 253, 253);
  }
  .logo {
     position: absolute;
-    top: 12px;
+    top: 6px;
     left: 25px;
  }
  .line {
