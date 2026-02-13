@@ -9,7 +9,7 @@ text-shadow: 0 0 15px blue;
  .navbar {
     position: absolute;
     top: 5%; 
-    left: 50%;
+    left: 51%;
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@ text-shadow: 0 0 15px blue;
     position: absolute;
     top: 10px;
     right: 1px;
-    font-size: 10px;
+    font-size: 12px;
 }
  .btns a:hover {
     text-shadow: 0 0 15px rgb(39, 13, 11);
@@ -48,25 +48,25 @@ text-shadow: 0 0 15px blue;
     transition: all 0.3s ease;
  }
  .cont {
-    color: rgb(248, 248, 248);
+    color: rgb(0, 0, 0);
     font-size: 40px;
     transition: all 0.3s ease;
-    text-shadow: 0 0 15px rgb(20, 3, 3);
+    text-shadow: 0 0 15px rgb(255, 255, 255);
  }
  .cont :hover {
     text-shadow: 0 0 15px rgb(139, 52, 127);
  }
  .not {
-    color: rgb(248, 248, 248);
+    color: rgb(0, 0, 0);
     font-size: 40px;
     transition: all 0.3s ease;
     font-style: serif;
  }
  .not :hover {
-    text-shadow: 0 0 15px rgb(139, 52, 127);
+    text-shadow: 0 0 15px rgb(255, 251, 254);
  }
  .coin {
-    color: rgb(248, 248, 248);
+    color: rgb(255, 255, 255);
     font-size: 40px;
     transition: all 0.3s ease;
     font-style: serif;
@@ -76,7 +76,7 @@ text-shadow: 0 0 15px blue;
  }
  .logo {
     position: absolute;
-    top: 10px;
+    top: 12px;
     left: 25px;
  }
  .line {
