@@ -1,39 +1,56 @@
-nav a {
-    color: rgb(52, 41, 34);
-    transition: all 0.3s ease;
-    justify-content: center;
+nav {
+width: 100%;
+padding: 1rem 5%;
+background: rgb(88, 126, 126);
+border-bottom: 1px solid rgba(255, 255,
+255, 0.1);
+backdrop-filter: blur (15px);
+margin-bottom: 2rem;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
- .navbar a:hover {
-text-shadow: 0 0 15px blue;
+.nav-links {
+   list-style: none;
+   display: flex;
+   gap: 2rem;
 }
- .navbar {
-    position: absolute;
-    top: 5%; 
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    font-size: large;
-    color: rgb(204, 21, 21);
-    border-radius: 1% yellow;
- }
-.btns a {
-    border-radius: 30px;
-    background: rgb(103, 103, 232);
-    color: rgb(27, 6, 6);
-    transition: all 0.3s ease;
+.nav-links li a {
+    position: relative;
+    font-size: 1.05rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
 }
+.nav-links li a:hover {
+   color: rgb(222, 222, 238);
+   text-shadow: 0 0 20px rgb(179, 121, 56);
+}
+.btns {
+padding: 0.5rem 1rem;
+border-radius: 30px;
+font-weight: 600;
+font-size: 1rem;
+background: rgb(239, 230, 230);
+color: black;
+cursor: pointer;
+border: none;
+transition: 0.3s;
+}
+.btns:hover {
+   background: rgb(209, 109, 109);
+   text-shadow: 0 0 15px rgb(75, 143, 3);
+}
+
  .hi {
     position: absolute;
     top: 10px;
     right: 1px;
     font-size: 10px;
 }
- .btns a:hover {
-    text-shadow: 0 0 15px rgb(39, 13, 11);
- }
+
  
  .fb-link a {
     color: rgb(22, 4, 63);
@@ -75,10 +92,6 @@ text-shadow: 0 0 15px blue;
     text-shadow: 0 0 15px rgb(223, 200, 220);
  }
  .logo {
-    position: absolute;
-    top: 10px;
-    left: 25px;
- }
- .line {
-    border: 1px black;
+    height: 50px;
+    width: 50px; 
  }
